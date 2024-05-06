@@ -1,8 +1,4 @@
-import streamlit as st
-import cv2
-from keras.models import load_model
-from keras.applications import imagenet_utils
-from keras.preprocessing.image import img_to_array
-from sklearn.preprocessing import LabelEncoder
-import numpy as np
-import time
+streamlit==0.89.0
+opencv-python==4.5.3.56
+keras==2.6.0
+scikit-learn==0.24.2
