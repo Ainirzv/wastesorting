@@ -1,11 +1,3 @@
-import streamlit as st
-import cv2
-from keras.models import load_model
-from keras.applications import imagenet_utils
-from keras.preprocessing.image import img_to_array
-from sklearn.preprocessing import LabelEncoder
-import numpy as np
-import time
 
 # Load model
 model = load_model(r'C:\Users\HP\Desktop\model_5class_resnet_87%.h5')
